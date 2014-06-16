@@ -1,18 +1,13 @@
-Environment
+环境
 ===========
 
 .. image:: _static/images/environment.png
-   :alt: Environment
+   :alt: 环境
 
+你的应用可能需要很多依赖软件。如果不包括Flask，那可能这本书不太适合你。你的应用程序
+**环境**是运行的基础。幸运的是，有很多东西可以轻松帮助管理我们的环境。
 
-Your application is probably going to require a lot of software to
-function properly. If it doesn't at least require the Flask package, you
-may be reading the wrong book. Your application's **environment** is
-essentially all of the things that need to be around when it runs. Lucky
-for us, there are a number of things that we can do to make managing our
-environment much less complicated.
-
-Use virtualenv to manage your environment
+使用virtualenv来管理环境
 -----------------------------------------
 
 `virtualenv <http://www.virtualenv.org/en/latest/>`_ is a tool for isolating your application in what is called a
